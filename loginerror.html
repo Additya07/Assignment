@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="loginerror.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="user" required>
+      <p class="error" id="usernameError"></p>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <p class="error" id="passwordError"></p>
+      
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script src="./Loginerror.js"></script>
+</body>
+</html>
